@@ -1,0 +1,43 @@
+baseURL: "https://blog.uier.tw/"
+languageCode: "zh-tw"
+title: uier
+theme: PaperMod
+paginate: 10
+
+menu:
+    main:
+        - identifier: about
+          name: 關於我
+          url: /about/
+          weight: 10
+        - identifier: archives
+          name: 文章列表
+          url: /archives/
+          weight: 20
+        - identifier: categories
+          name: 文章分類
+          url: /categories/
+          weight: 30
+        - identifier: search
+          name: 搜尋文章
+          url: /search/
+          weight: 40
+
+params:
+    homeInfoParams:
+        Title: "Welcome to my blog. 👋"
+        Content: >
+            ㄏㄏ
+    socialIcons:
+        - name: email
+          url: "mailto:ap9940506@gmail.com"
+        - name: github
+          url: "https://github.com/Uier"
+        - name: "facebook"
+          url: "https://facebook.com/TnUier"
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary

@@ -25,9 +25,9 @@ menu:
 
 params:
     homeInfoParams:
-        Title: "Welcome to my blog. 👋"
+        Title: "歡迎光臨子緯的部落格"
         Content: >
-            ㄏㄏ
+            臺南人，正在師大資工讀大三，喜歡前端
     socialIcons:
         - name: email
           url: "mailto:ap9940506@gmail.com"
@@ -35,9 +35,20 @@ params:
           url: "https://github.com/Uier"
         - name: "facebook"
           url: "https://facebook.com/TnUier"
+        - name: "telegram"
+          url: "https://t.me/TzuWei"
 
 outputs:
     home:
         - HTML
         - RSS
         - JSON # is necessary
+
+markup:
+    highlight:
+        # anchorLineNos: true
+        codeFences: true
+        guessSyntax: true
+        lineNos: true
+        # noClasses: false
+        style: dracula

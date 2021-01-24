@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>uier</title>
+    <link>https://blog.uier.tw/</link>
+    <description>Recent content on uier</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Sun, 24 Jan 2021 18:32:26 +0800</lastBuildDate><atom:link href="https://blog.uier.tw/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First commit</title>
+      <link>https://blog.uier.tw/posts/first-commit/</link>
+      <pubDate>Sun, 24 Jan 2021 18:32:26 +0800</pubDate>
+      
+      <guid>https://blog.uier.tw/posts/first-commit/</guid>
+      <description>有鑑於自己不太擅長追根究底的，於是想透過做筆記的方式，來讓自己徹底了解一個陌生的知識。</description>
+    </item>
+    
+    <item>
+      <title>搜尋</title>
+      <link>https://blog.uier.tw/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.uier.tw/search/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>文章分類</title>
+      <link>https://blog.uier.tw/categories/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.uier.tw/categories/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>文章列表</title>
+      <link>https://blog.uier.tw/archives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.uier.tw/archives/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>關於我</title>
+      <link>https://blog.uier.tw/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.uier.tw/about/</guid>
+      <description>Todo</description>
+    </item>
+    
+  </channel>
+</rss>

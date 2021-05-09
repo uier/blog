@@ -7,21 +7,25 @@ paginate: 10
 menu:
     main:
         - identifier: about
-          name: 關於我
-          url: /about/
+          name: About
+          url: about/
           weight: 10
         - identifier: archives
-          name: 文章列表
-          url: /archives/
+          name: Archive
+          url: archives/
           weight: 20
         - identifier: categories
-          name: 文章分類
-          url: /categories/
+          name: Categories
+          url: categories/
           weight: 30
-        - identifier: search
-          name: 搜尋文章
-          url: /search/
+        - identifier: tags
+          name: Tags
+          url: tags/
           weight: 40
+        - identifier: search
+          name: Search
+          url: search/
+          weight: 50
 
 params:
     homeInfoParams:

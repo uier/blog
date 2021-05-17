@@ -6,6 +6,10 @@ paginate: 10
 
 menu:
     main:
+        - identifier: home
+          name: Home
+          url: /
+          weight: 5
         - identifier: about
           name: About
           url: about/
@@ -55,4 +59,4 @@ markup:
         guessSyntax: true
         lineNos: true
         # noClasses: false
-        style: dracula
+        style: "dracula"

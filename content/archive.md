@@ -1,5 +1,5 @@
 ---
-title: "文章列表"
+title: "Archives"
 layout: "archives"
 url: "/archives"
 ---

@@ -8,7 +8,7 @@ url: "/about"
   
 臺南人，2018 年來臺北讀師大資工，對視覺的東西特別有興趣，但是我不會畫畫。  
   
-正在努力學習 javascript，偶爾寫點 python，如果想知道我最近在寫什麼可以追蹤我的 [GitHub](https://github.com/Uier)。  
+正在學習 javascript，偶爾寫點 python，如果想知道我最近在寫什麼可以追蹤我的 [GitHub](https://github.com/Uier)。  
   
 ![photo](/about/about.jpeg)
 

@@ -1,6 +1,6 @@
 baseURL: "https://blog.uier.tw/"
 languageCode: "zh-tw"
-title: uier
+title: TzuWei's Blog 🐠
 theme: PaperMod
 paginate: 10
 
@@ -14,9 +14,9 @@ menu:
           name: About
           url: about/
           weight: 10
-        - identifier: archives
+        - identifier: archive
           name: Archive
-          url: archives/
+          url: archive/
           weight: 20
         - identifier: categories
           name: Categories

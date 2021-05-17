@@ -4,7 +4,7 @@ date: 2021-05-16T20:53:54+08:00
 draft: false
 tags: ["d3.js", "svg"]
 categories:
-- "JavaScript"
+- "Front-end"
 ---
 
 前陣子，在修資料視覺化的同學寫作業遇到了一個問題，幫他解決後發現裡面有不少東西可以記錄下來。

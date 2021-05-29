@@ -11,7 +11,7 @@ url: "/about"
   
 正在學習 javascript，有時候心血來潮會寫點別的，如果想知道我最近在寫什麼可以追蹤我的 {{< newtabref  href="https://github.com/Uier" title="GitHub" >}}。
 
-其他聯絡方式[首頁](/)都有。
+其他聯絡方式[首頁](/)都有唷。
   
 ![photo](/about/about.jpeg)
 

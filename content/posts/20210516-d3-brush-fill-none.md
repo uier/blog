@@ -1,10 +1,11 @@
 ---
-title: "使用 d3-brush 後文字不見？來了解 svg 的顏色設定"
+title: "使用 d3-brush 後文字不見？了解 svg 的顏色設定"
 date: 2021-05-16T20:53:54+08:00
 draft: false
 tags: ["d3.js", "svg"]
 categories:
 - "Front-end"
+ShowToc: true
 ---
 
 前陣子，在修資料視覺化的同學寫作業遇到了一個問題，幫他解決後發現裡面有不少東西可以記錄下來。
@@ -52,7 +53,7 @@ categories:
 
 打開瀏覽器的開發者工具，在 DOM 裡面還是可以找到`<text>`，但我們卻看不到他。
 
-![inspect-element](/d3-brush-demo.png)
+![inspect-element](/20210516/d3-brush-demo.png)
 
 不過眼尖就會發現上一層的`<g>`有 attribute`fill="none"`，因為我們沒有為`<text>`指定 fill 的顏色，而`<g>`這個元素會讓他的 children 繼承他的 attribute，所以造成`<text>`繼承了`fill="none"`。關於`<g>`元素的說明可以看 {{< newtabref  href="https://developer.mozilla.org/en-US/docs/Web/SVG/Element/g" title="MDN 的文件" >}}。
 
@@ -98,7 +99,7 @@ g.append("text")
 
 也因此 d3-brush 設定了`fill="none"`來隱藏這些`<rect>`，你也可以打開開發者工具手動把 fill 改成其他顏色看看會如何。在下面這張圖，我把`<g>`更改成`fill="red"`。
 
-![modify-element](/d3-brush-demo2.png)
+![modify-element](/20210516/d3-brush-demo2.png)
 
 其實在幫同學看這個問題時有看到他嘗試寫了`<text color="black">`，然而 color 在 SVG 中並不是他所想的那樣，下一個部分會再提到 color 這個屬性。
 
@@ -125,7 +126,7 @@ text = text.merge(tickEnter.append("text")
 
 而後來，作者自己開了這個 {{< newtabref  href="https://github.com/d3/d3-axis/issues/49" title="issue" >}} 並更改成`fill="currentcolor"`，如下圖。
 
-![change-to-fill=currentcolor](/d3-brush-demo3.png)
+![change-to-fill=currentcolor](/20210516/d3-brush-demo3.png)
 
 ### currentcolor 是什麼？
 

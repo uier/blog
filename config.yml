@@ -45,6 +45,8 @@ params:
           url: "https://facebook.com/TnUier"
         - name: "telegram"
           url: "https://t.me/TzuWei"
+    ShowReadingTime: true
+    ShowShareButtons: true
 
 outputs:
     home:

@@ -37,6 +37,8 @@ params:
         Content: >
             記錄一些學習的東西
     socialIcons:
+        - name: cv
+          url: "https://cv.uier.tw"
         - name: email
           url: "mailto:ap9940506@gmail.com"
         - name: github

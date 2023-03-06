@@ -15,7 +15,7 @@ url: "/about"
 
 臺南人，2018 年來臺北讀師大資工，對視覺的東西特別有興趣，雖然我不會畫畫，但我相信透過程式一樣能讓我創造出賞心悅目的事物。
   
-正在學習 javascript，心血來潮時會寫點別的，如果想知道我最近在寫什麼可以追蹤我的 {{< newtabref  href="https://github.com/Uier" title="GitHub" >}} 或 {{< newtabref  href="https://facebook.com/TnUier" title="Facebook" >}}。
+正在學習 javascript，心血來潮時會寫點別的，如果想知道我最近在寫什麼可以追蹤我的 {{< newtabref  href="https://github.com/uier" title="GitHub" >}} 或 {{< newtabref  href="https://facebook.com/TnUier" title="Facebook" >}}。
 
 聯絡方式[首頁](/)在都有唷。
 

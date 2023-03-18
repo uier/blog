@@ -13,7 +13,7 @@ We look forward to adding more features to help programming education in the fut
 - Front-end: Vue3 (TypeScript) / TailwindCSS
 - Back-end: Flask (Python) / Redis / MongoDB
 - Sandbox: C / Python
-- Hoisting: Cloudflare Pages (Front-end) / Self-hosted with Caddy
+- Hosting: Cloudflare Pages (Front-end) / Self-hosted with Caddy
 
 
 ## Key Features
